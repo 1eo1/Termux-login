@@ -5,7 +5,7 @@ import hashlib
 import sys
 import os
 
-password = getpass.getpass(prompt='| ', stream=None)
+password = getpass.getpass(prompt='| ')
 
 filepass = open("/data/data/com.termux/files/usr/share/login/.pass", "r")
 filepass = filepass.read().split("\n")[0]
