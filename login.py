@@ -1,4 +1,4 @@
-    #!$PREFIX/bin/env python
+#!$PREFIX/bin/env python
 
 import getpass
 import hashlib
